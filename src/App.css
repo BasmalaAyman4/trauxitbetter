@@ -28,11 +28,71 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+.cta {
+  padding: 10px 20px;
+  transition: all 0.2s ease;
+  border: none;
+  background-color: #ff8201;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin-right: 155px;
+}
+.cashbtn{
+  background-color: #055618;
+}
+.shopbtn{
+  background-color: #fff;
+  color: #000 !important;
+}
+.shopbtn span{
+  color:  #000 !important;
+}
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #fff;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.shopbtn svg{
+  stroke: #000 !important;
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+@media (min-width:0px) and (max-width:600px) {
+  .cta{
+    margin-right: 0 !important;
+    margin-bottom: 10px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (min-width:600px) and (max-width:900px) {
+  .cta {
+    margin-right: 0 !important;
+    margin-bottom: 10px;
   }
 }

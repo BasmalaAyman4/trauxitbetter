@@ -1,0 +1,444 @@
+.home {
+    background-image: url('../assets/images/glowing-sphere-orbits-dark-planet-space-generated-by-ai\ copy\ 5.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px !important;
+    height: 1000px !important;
+}
+
+.home__body {
+    padding-top: 380px;
+}
+
+.img {
+    width: 170px;
+    margin: auto;
+    text-align: center !important;
+}
+
+.home__title {
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.home__para {
+    letter-spacing: 22px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 0 !important;
+    font-size: 27px;
+    margin-left: 15px;
+}
+
+.content__para {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 600px;
+    margin: auto !important;
+    margin-top: 70px !important;
+}
+
+.content__para span,
+.freight__para span,
+.trauxit__desc span,
+.shop__para span {
+    font-weight: bold;
+}
+
+.blur {
+    width: 100px !important;
+}
+
+.swip {
+    margin-top: 50px !important;
+}
+
+.mobile {
+    width: 300px;
+}
+
+.cashphone {
+    width: 350px;
+}
+
+.freight {
+    display: flex;
+    align-items: center;
+    margin-left: 150px !important;
+}
+
+.freight__img {
+    width: 70px;
+}
+
+.freight__title {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.freight__para {
+    text-transform: lowercase;
+    font-size: 30px;
+    width: 350px;
+    text-align: left;
+    margin-left: 150px !important;
+    margin-top: 20px !important;
+}
+
+.trauxit__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 85px;
+}
+
+.trauxit__para,
+.cash__para,
+.shop__para {
+    font-size: 20px;
+    width: 350px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.right {
+    margin-right: 100px;
+}
+
+.rightt {
+    margin-right: 120px;
+}
+
+.center {
+    margin-top: 150px !important;
+}
+
+.trauxit__desc {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 150px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.cash__title {
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.shop__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+.better {
+    margin-right: 120px;
+}
+
+.easy {
+    margin-left: 130px;
+}
+
+.connect {
+    width: 200px;
+    margin-left: 150px;
+    text-align: left;
+}
+
+.swip__para {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.swiperHeader {
+    cursor: pointer;
+}
+
+.swiperHeader:hover .swip__para {
+    color: #ff8201;
+}
+
+.esports__body {
+    background-image: url('../assets/images/Esports\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+}
+
+.esports {
+    padding-top: 50px;
+}
+
+.esports__title {
+    font-size: 100px !important;
+    font-weight: bold;
+}
+
+.esports__para {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0 !important;
+}
+
+.future {
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+.future__title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.future__title span {
+    color: #FF8201;
+}
+
+.mobileimg {
+    width: 250px;
+    padding-top: 70px;
+}
+
+.future__img {
+    background-image: url('../assets/images/APP\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
+    margin-right: 50px !important;
+}
+
+.cost__title,
+.tech__title,
+.reduce__title {
+    width: 200px;
+    text-align: left;
+    font-size: 30px;
+}
+
+.paid__title {
+    text-align: left;
+}
+
+.tech__para,
+.cost__para,
+.reduce__para {
+    width: 300px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.paid__para,
+.confidence__para,
+.ship__para {
+    text-align: left;
+    font-size: 20px;
+    width: 270px;
+}
+
+.btns {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 0px 40px;
+    background-color: #FF8201;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    border: none;
+}
+
+.btn div {
+    margin: 10px 0px 0px 10px;
+    padding-bottom: 0 !important;
+}
+
+.apple {
+    width: 40px;
+}
+
+.play {
+    padding: 0px 60px;
+}
+
+@media (min-width:0px) and (max-width:600px) {
+    .content__para {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .freight {
+        margin-left: 0 !important;
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .freight__title {
+        margin-left: 0 !important;
+    }
+
+    .freight__para {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .trauxit__title {
+        margin-right: 0 !important;
+    }
+
+    .trauxit__para {
+        width: 100%;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .right,
+    .rightt {
+        margin-right: 0 !important;
+    }
+
+    .cost__title,
+    .tech__title,
+    .reduce__title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tech__para,
+    .cost__para,
+    .reduce__para {
+        text-align: center;
+        width: 100%;
+    }
+
+    .future__img {
+        margin-right: 0 !important;
+    }
+
+    .paid__title {
+        text-align: center;
+    }
+
+    .paid__para,
+    .confidence__para,
+    .ship__para {
+        text-align: center;
+        width: 100%;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: 10px;
+        padding: 0px 80px;
+    }
+    .btn div{
+        text-align: center;
+    }
+    .play{
+        padding: 0 100px;
+    }
+    .trauxit__desc{
+       margin-left: 0 !important;
+       width: 100%;
+       text-align: center; 
+    }
+    .cash__title{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .connect,
+    .easy,
+    .cash__para,
+    .shop__title,
+    .shop__para{
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+}
+@media (min-width:600px) and (max-width:900px) {
+.freight {
+        margin-left: 0 !important;
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .freight__title {
+        margin-left: 0 !important;
+    }
+
+    .freight__para {
+        width: 100%;
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .trauxit__title {
+        margin-right: 0 !important;
+    }
+
+    .trauxit__para {
+        width: 100%;
+        text-align: center;
+        margin-left: 0 !important;
+    }
+                .right,
+                .rightt {
+                    margin-right: 0 !important;
+                }
+        
+                .cost__title,
+                .tech__title,
+                .reduce__title {
+                    width: 100%;
+                    text-align: center;
+                }
+        
+                .tech__para,
+                .cost__para,
+                .reduce__para {
+                    text-align: center;
+                    width: 100%;
+                }
+        
+                .future__img {
+                    margin-right: 0 !important;
+                }
+                                        .cash__title {
+                                            width: 100%;
+                                            margin-left: 0 !important;
+                                        }
+                    
+                                        .connect,
+                                        .easy,
+                                        .cash__para,
+                                        .shop__title,
+                                        .shop__para {
+                                            width: 100%;
+                                            margin-left: 0 !important;
+                                            text-align: center;
+                                        }
+}
